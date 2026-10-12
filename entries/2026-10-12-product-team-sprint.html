@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SpeedyBeans: working on Screen 3 — Yichao Gao</title>
+<meta name="description" content="My sold-out screen, three rounds of changes, and working with the team.">
+<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+<link rel="stylesheet" href="../css/custom.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Yichao Gao</h1>
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="index.html" aria-current="page">Log</a>
+    <a href="../project.html">Project</a>
+    <a href="../about.html">About</a>
+  </nav>
+</header>
+
+<main>
+
+<article>
+
+  <h2>SpeedyBeans: working on Screen 3</h2>
+  <p><time datetime="2026-10-12">October 12, 2026</time> · Product Team Sprint reflection</p>
+
+  <p>Our team worked on SpeedyBeans, a coffee preorder app for people on their way to work. We split the flow across five people. I was responsible for Screen 3, where users choose a replacement when an ingredient is sold out. My main goal was to let someone change their syrup without having to start the order again.</p>
+
+  <h3>What changed</h3>
+  <p>The first version was simple: a message saying vanilla syrup was sold out, three alternatives, and a “Use this option” button. It gave users a way forward, but it did not show the cost of each choice. In Phase 2, I added prices, the current drink details, and an updated total. I also made it clearer that the size and milk would stay the same.</p>
+
+  <figure>
+    <a href="../images/speedybeans-screen3-phases-1-2.jpg"><img src="../images/speedybeans-screen3-phases-1-2.jpg" width="844" height="1152" loading="lazy" alt="My first two Screen 3 designs side by side. Phase 2 adds replacement prices, current drink details, and the updated total."></a>
+    <figcaption>Phase 1 and Phase 2 of my sold-out screen, from our team presentation. Click to view the full image.</figcaption>
+  </figure>
+
+  <p>Phase 3 added the peak-hour delay requirement. I used an amber notice to show the wait changing from four to eight minutes. That made the screen more informative, but it also raised a question: was the delay notice taking too much attention away from choosing a syrup? That is something I would test rather than assume the extra information helped.</p>
+
+  <figure>
+    <a href="../images/speedybeans-screen3-phase-3.jpg"><img src="../images/speedybeans-screen3-phase-3.jpg" width="430" height="1190" loading="lazy" alt="Phase 3 of my Screen 3 design, with an amber four-to-eight-minute delay notice above the syrup alternatives." style="display: block; width: 320px; max-width: 100%; height: auto; margin: 0 auto;"></a>
+    <figcaption>Phase 3 keeps the replacement choices and adds the updated wait time.</figcaption>
+  </figure>
+
+  <h3>Working with the team</h3>
+  <p>Having one screen each made the work easier to divide. We drafted in a shared Google Doc, compared our screens, and revised them together. For my part, the important connection was with Screen 2: after choosing a replacement, the user should return to customization with the new syrup and their other choices saved.</p>
+
+  <p>Putting the screens together showed details we still needed to align, including drink names, store names, and order numbers. Using the same purple Material 3 style helped, but the information also needed to match. Next time, I would agree on one sample order with the team earlier and walk through the whole flow before spending much time on spacing.</p>
+
+  <h3>A thought from the reading</h3>
+  <p>Golden Krishna’s <cite>The Best Interface Is No Interface</cite> questions the habit of adding screens as the default answer to a problem. That made me think about why my screen was needed at all. The customer wants a coffee, so the replacement step should be short and only appear when necessary. I would like to test whether showing availability earlier in customization could avoid some of these interruptions.</p>
+
+  <p><a href="https://www.figma.com/design/GpwCc1Jl3zZ8q5CrnaVAE1/Untitled?node-id=42-869">View the three design phases in Figma</a></p>
+  <p><small>Reading connection: Golden Krishna, <cite>The Best Interface Is No Interface</cite> (2015), supplied excerpt, “Slap an Interface on It!”</small></p>
+
+  <p><a href="index.html">Back to the log</a></p>
+
+</article>
+
+</main>
+
+<footer>
+  <p>Yichao Gao. UT330, Taubman College, Fall 2026.</p>
+</footer>
+
+</body>
+</html>
